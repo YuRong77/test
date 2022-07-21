@@ -1,0 +1,41 @@
+.container {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background: wheat;
+  /* animation: example infinite;
+  animation-duration: 4s; */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  /* display: none; */
+  /* display: flex; */
+  position: relative;
+}
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* color: aqua; */
+}
+.test.box {
+  /* color: azure; */
+}
+.container > div {
+  /* color: aliceblue; */
+}
+.box ~ div {
+  color: aliceblue;
+}
+#test {
+  color: aqua;
+}
