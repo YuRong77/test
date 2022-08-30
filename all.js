@@ -70,3 +70,81 @@
 //   console.log(x);
 // })();
 // console.log(x);
+
+// const test = function () {
+//   alert("alert!!");
+// };
+// (function () {
+//   if (confirm("check") === true) {
+//     test();
+//   }
+// })();
+
+// function Person(name, age) {
+//   // console.log(this, "this");
+//   this.name = name;
+//   this.age = age;
+// }
+
+// const nick = new Person("nick", 19);
+// console.log(nick, "nick");
+
+// function test() {
+//   const t = "123";
+//   console.log(this.t, "this");
+// }
+// test();
+
+// {
+//   console.log(a);
+//   const a = 1;
+// }
+
+// const num = 100;
+// const obj = { num: 1 };
+// function add() {
+//   console.log(this.num, "this num");
+// }
+// // const bindTest = add.bind(obj);
+// // bindTest();
+// add.bind(obj)();
+
+// let test = [1, 2, 3, 4, 5];
+// let a = [];
+// test.forEach((item) => a.push(item * 2));
+// console.log(a, "a");
+
+// for (let i = 0; i < test.length; i++) {
+//   test[i] = test[i] * 2;
+// }
+// console.log(test, "test");
+
+// const arr = test.map((item) => item * 2);
+// console.log(arr, "arr");
+
+
+// var a = 1;
+// var b = 1;
+// var e = 1;
+
+// function test(a) {
+//   console.log(a);
+//   var b = 2;
+//   console.log(b);
+//   if (true) {
+//     let c = 5;
+//     var d = 6;
+//     const e = 7;
+//   }
+//   console.log(c);
+//   console.log(d);
+//   console.log(e);
+// }
+
+// test();
+
+// undefined
+// 2
+// Uncaught ReferenceError: c is not defined
+
+
